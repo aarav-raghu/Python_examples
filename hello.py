@@ -19,3 +19,11 @@ def calculate_subtract(number:int):
 print(calculate_subtract(6764))
 
 print("frtctfv")
+
+print("Siblings are annoying: true or false?") 
+siblings = input()
+
+if siblings:
+    print("Sibling are annoying!!!")
+else:
+    print("No they are not!!")
