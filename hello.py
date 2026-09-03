@@ -23,7 +23,7 @@ print("frtctfv")
 print("Siblings are annoying: true or false?") 
 siblings = input()
 
-if siblings:
+if siblings == "true":
     print("Sibling are annoying!!!")
 else:
     print("No they are not!!")
