@@ -27,3 +27,23 @@ if siblings == "true":
     print("Sibling are annoying!!!")
 else:
     print("No they are not!!")
+
+
+print("What is your first number?")
+number = int(input())
+print("What is your operation?")
+operation = input()
+print("What is your second number?")
+n = int(input())
+if operation == "+":
+    answer = number + n
+elif operation == "-":
+    answer = number - n
+elif operation == "*":
+    answer = number * n
+elif operation == "/":
+    answer = number / n
+else:
+    print(f"{operation} not vaild")
+
+print(answer)
